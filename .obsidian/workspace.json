@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "ad2a7d45df1e3cdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c7ad07fd8a3f4ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a90e2bb457ae6000",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0ed312d23de6297f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f56e70a01eb0dae6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60791a288452a754",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "71ba2f5b083be517",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4f9edcaaa4e08ca4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323.5
+  },
+  "right": {
+    "id": "d4b1992d04b5f269",
+    "type": "split",
+    "children": [
+      {
+        "id": "14814f40eb66e658",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d70275a635c07b0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Tips/Incremental Tips.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Incremental Tips"
+            }
+          },
+          {
+            "id": "bae21d2487382206",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tips/Incremental Tips.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Incremental Tips"
+            }
+          },
+          {
+            "id": "4e3f8519890b6592",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "7ac42058bd321fa9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Tips/Incremental Tips.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Incremental Tips"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "a90e2bb457ae6000",
+  "lastOpenFiles": [
+    "Edutainment Notes/Outnumbered Roadmap.md",
+    "Edutainment Notes/Outnumbered Architecture.md",
+    "Edutainment Notes/Unconfirmed 770704.crdownload",
+    "Edutainment Notes/Unconfirmed 95668.crdownload",
+    "Nasc vs Bhride Dev Report.md",
+    "Terrain Chunk Hits.md",
+    "Godot Dev Reference Notes.md",
+    "Edutainment Notes/Super Solvers Godot Architecture Combined Notes.md",
+    "Edutainment Notes/super-solvers-godot-chat-log.md",
+    "Edutainment Notes/super-solvers-godot-architecture-chat.md",
+    "The 20 Games Challenge/Spring Jam 2026/Outline.md",
+    "Edutainment Notes/Unconfirmed 692339.crdownload",
+    "Tips/Incremental Tips.md",
+    "Edutainment Notes/Edutainment GameDev Notes.md",
+    "Edutainment Notes/Unconfirmed 791314.crdownload",
+    "Edutainment Notes/Unconfirmed 661510.crdownload",
+    "Edutainment Notes",
+    "Game Development Skill Trees.md",
+    "lu162924e61k.tmp",
+    "Game Mechanics Matrix.csv",
+    "generate_mechanics_matrix.py",
+    "20 Games Challenge Games by Complexity.md",
+    "3D Pixel Art Prototype.md",
+    "lu9917ry1s.tmp",
+    "Games and Years.md",
+    "Games for 20 Games Challenge.md",
+    "Game Complexities.md",
+    "Home Network ReArchitecting Plan.md",
+    "Untitled.md",
+    "thumbnail.png",
+    "Item Index with Mythic Parallels and Abilities.md",
+    "thumbnail.jpg",
+    "Celtic ARPG/Beastiary/Base Beast Raw List.md",
+    "Celtic ARPG/Beastiary/Gaelic Analogs for Classic Zelda Enemy Types.md",
+    "qwen3.md",
+    "Celtic ARPG/Beastiary/Base Beast List Classed-Tagged.md",
+    "Celtic ARPG/Mechanics/Base Collection in Theme.md",
+    "Celtic ARPG/Mechanics/Base Collection Matrix.md"
+  ]
+}

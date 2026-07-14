@@ -1,0 +1,75 @@
+# Just a Raw List of Beasts Ideas
+
+- Abhartach: Undead blood-drinking chieftain who keeps rising from his grave, a great ReDead/Gibdo-style miniboss who won't stay down.  
+- Abhartach-Style Blood Shade: Lesser echoes of Abhartach that creep along walls and floors, functioning like Wallmaster plus ReDead curse effects.  
+- Aillén mac Midgna: Fire-breathing, harp-playing monster that lulls towns to sleep before burning them.  
+- Am Fear Liath Mòr: The Big Grey Man of Ben Macdui, a looming, almost unseen mountain terror that stalks climbers.  
+- Aos Sí (Sidhe host): Fair-people from the mounds, a catch-all for Wizzrobe-like casters, teleporting archers, and sneaky "moblin bandits" with glamours.  
+- Badb (battle crow): War-goddess in crow form, but in-game you can treat her as packs of intelligent, cursed crows.  
+- Balor-type Fomorian: Giant with a single destructive eye, maps cleanly onto a Gleeok/Aquamentus-tier beam-spamming boss.  
+- Baobhan sìth: Scottish vampire-fairies who appear as beautiful women, then dance men to death and drink their blood.  
+- Battle-Mist Wraiths (Scáth Catha): Shadowy remnants of warriors killed in great battles, bound to ancient fields.  
+- Bean Sídhe / Bean Nighe: Wailing or washing death-spirit, a non-combat "Bubbles/Anti-Fairy" style hazard that curses you when you get close.  
+- Brònach Bean-Tìr ("sorrowful land-woman"): Slow-moving earth-spirit that sinks tiles underfoot, making arenas unstable.  
+- Buggane (Manx): Huge, hairy, sometimes headless monster that smashes churches and walls, fits as a Helmasaur King or Lanmola-scale dungeon boss.  
+- Bòcan / Bòcanach: Wrathful goblin-like spirit or battlefield demon that shrieks over warriors and feeds on fear.  
+- Cailleach: Winter hag who shapes weather and stone, perfect as a late-game caster boss like Kholdstare/Trinexx with ice and rock phases.  
+- Caoineag: A small, unseen wailer by waterfalls whose cries drain courage and max hearts rather than directly killing.  
+- Caoránach: Vast serpent/dragon or demon of Lough Derg, mother of many lesser monsters and poison-creatures.  
+- Cat sìth (Cait Sìth): Large black fairy-cat with a white spot on its chest, prowling graveyards and stealing souls.  
+- Clach Ghuirmean Serpent: Serpent that curls around blue stones; periodically turns to solid rock then back to flesh.  
+- Corpse-Host / Marbh Beo: "Living dead" corpses animated by ill will, easy reskin of Stalfos/Gibdo/Zombie variants with Irish names.  
+- Corpse-Lights (Soilse Marbha): Wandering will-o'-the-wisp lights luring players into bog pits and enemy ambushes.  
+- Crodh Mara (sea cattle): Herds of spectral or semi-solid sea-cows that can trample swimmers or stampede beaches.  
+- Crom Cruach Serpent-Idol Beast: Serpentine or many-headed idol monster, easily filling the Manhandla/Moldorm/Gleeok niche as a "corrupted old god" boss.  
+- Crom's Hounds: Large, black or brindled dogs marked by strange sigils, hunting trespassers on cursed hills.  
+- Cú Glas / Moddey Dhoo (black dog): Ominous spectral hounds, good for Stalfos-equivalent "dog bones" that reform or for stealthy night patrols.  
+- Cú Sídhe (fairy hound): Green or white Otherworld hounds, ideal as Moblin-tier chargers or fast wolfos-style enemies in wild areas.  
+- Dearg-Due: Irish female revenant who rises from her grave to drain life with a kiss and a tight embrace.  
+- Dobhar-chú: Amphibious "water hound," like an oversized, vicious otter that ambushes from rivers and lakes.  
+- Dullahan: Headless rider on a black horse who appears as a death omen, works like a fast, teleporting Darknut or Hinox-tier elite.  
+- Each Uisge / Each-Uisge: Savage lake water-horse that drowns riders, a Zora/Octorok analog that drags you off docks or from shallow water.  
+- Ellén Trechend: Three-headed Irish monster that ravages the countryside, a classic "force-of-destruction" boss.  
+- Fachan: Deformed creature with one arm, one leg, one eye, and a huge spiked club-fist, incredibly fast and violent.  
+- Faoladh: Irish werewolf that roams as a protector or predator depending on who commands it.  
+- Fear Gorta: Walking famine spirit begging for food, great as a cursed NPC/mini-enemy that drains hearts when ignored or over-fed.  
+- Fir Bolg Marauder: Interpreted as brutish, armored raiders from an older age, good as elite shock troops.  
+- Fomoire Spawn: Twisted lesser offspring of the Fomorians: hunched, sea-corroded humanoids with barnacled armor.  
+- Fomorian Foot-Soldier: Misshapen sea-raider giants, ready-made as Moblin/Darknut analogs for your "evil army" faction.  
+- Fuath: Generic name in Scots Gaelic for malicious water-spirits, often lurking under bridges and in bogs.  
+- Gancanagh: "Love-talker" fairy who charms victims, a subtle Wizzrobe analog that inflicts confusion/charm instead of direct damage.  
+- Geilt: Mad, wild person driven into the woods, moving like a feral, fast humanoid enemy with erratic behavior.  
+- Glaistig / Ùruisg: Half-woman, half-goat spirit that can help or harm, a good analog for those witchy Wizzrobes or aggroable NPC-enemies in villages.  
+- Glashtyn (Manx): Shoreline shapeshifter (horse/man) from pools and fords, a good coastal Moldorm/Moldorm-like burrower that charges in arcs.  
+- Grogoch / Fenodyree: Hairy farm-brownies, easy reskin of Hinox-tier brutes or Armos-like guardians of barns and old fields.  
+- Heather-Field Stag Spirit: Ghostly stag with tines of light; can phase through bracken, goring and then vanishing.  
+- Holed-Stone Warden: Animate standing stone with an "eye" hole, sliding across ground and firing force-waves.  
+- Kelpie: River water-horse that lures you onto its back, works like a Moldorm/Morpha hybrid boss that changes form between horse and whirlpool.  
+- Leanan Sídhe: Muse-vampire who drains artists, could fight like a Wizzrobe that charms or drains magic instead of hearts.  
+- Leprechaun: Crafty cobbler fairy with hidden gold, ideal as a fast, annoying thief-type like the rupee-stealing thieves in ALttP.  
+- Loch Uilebheist (lake monster): Any large, unnamed loch-beast: long-necked, finned, surfacing in fog to flip boats.  
+- Luideag ("ragged one"): Tattered, faceless specter clinging to doorways and bed-ends, latching onto victims to drain stamina.  
+- Lámh Dhearg ("red hand" ghost): Disembodied grabbing hand from folklore, a perfect Wallmaster/Floormaster analog.  
+- Lámh Ghortaigh ("afflicting hand"): Invisible or skeletal hand that grips ankles, slows movement, and spreads wasting sickness.  
+- Manx Barrow Wight: Undead guardian of a túmulus, essentially a themed Stalfos Knight or Armos Knight tied to specific grave-mounds.  
+- Marbhán Bog-Dead: Half-sunken corpses preserved in peat that suddenly animate when stepped on.  
+- Merrow (Muir-Ógh): Sea-folk with beautiful women and ugly men, good replacements for Zora/Zola or as ranged trident-throwers from rocks.  
+- Muileartach: A one-eyed, one-handed sea hag tied to storms and shipwrecks, commanding hostile waves and reefs.  
+- Muirdris: Monstrous lake creature whose gaze or presence twists the faces of those who see it.  
+- Nathair Mhòr: Huge, semi-divine serpent that coils around standing stones or barrows, poisoning the land.  
+- Nuckelavee-adjacent Sea Fiend (Gaelicized for your setting): Skinless horse-man sea demon, could serve as a Dodongo-style coastal horror that hates fresh water.  
+- Oíche Shamhna Spirits: Wild spirits loose on Samhain night, a seasonal reskin of Keese/Bubbles that only appear in certain dungeons or time states.  
+- Púca: Chaotic shapeshifter (horse, goat, dog, etc.) that tricks travelers, a perfect stand-in for Like Likes or floor-trap mimics that steal gear.  
+- Rowan-Root Creeper: Sentient root-mass under sacred trees, grabbing ankles and dragging intruders underground.  
+- Sea-Spray Wight: Thin, translucent humanoid of salt spray and foam that corrodes armor and metal weapons.  
+- Searbhán: Giant or ogre who guards a magical tree or fruit, using uprooted trees or stone pillars as weapons.  
+- Selkie: Seal-folk who shed skins to become human, nice as deceptive shoreline NPCs who flip into enemy mode like Goriya-style tricksters.  
+- Sluagh: Swarming, soul-stealing host of restless dead, easy analog to Bubble swarms or anti-magic ghost clouds.  
+- Storm-Cailleach's Crows: Murder-flocks whose wingbeats call gales and lightning, pecking at magic and gear.  
+- Sídhe Boar or Stag: Otherworld beast of the hunt, can play the role of a Golden Lynel-tier roaming superboss in forests and moors.  
+- Sídhe Hare: Otherworldly hare that leads hunters into traps; in combat, it's a teleporting, tricksy nuisance enemy.  
+- Sídhe Whirlwind: Invisible fairy wind that snatches people up, works like Peahats or mini-tornado enemies that knock you around.  
+- Tarbh Mara (sea bull): Massive bull of the sea whose bellow calls dangerous waves and knocks players off cliffs.  
+- Tarbh Uisge (water bull): Half-spirit bull that emerges from lochs, trampling shorelines and goring intruders.  
+- Torc Triath (Otherworld boar): Huge, royal boar of the Otherworld; a roaming, rage-charging field boss.  
+- Urisk: Solitary, shaggy, half-human spirit haunting pools and glens, swinging between pitiful and murderous.

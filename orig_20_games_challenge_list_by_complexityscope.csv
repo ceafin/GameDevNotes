@@ -1,0 +1,132 @@
+Game, Year, Platform, Complexity, Scope,Combined Score
+Pong,1972, Arcade,0.5,0.5,1
+Breakout,1976,Arcade,0.5,0.5,1
+Chrome Dinosaur Game,2014,Web Browser,0.5,0.5,1
+Blockade (Snake),1976, Arcade,1,0.5,1.5
+Gorillas.bas,1990, MS-DOS,1,0.5,1.5
+Number Munchers,1986, Apple II,1,1,2
+Snail Maze,1986, Sega Master System,1,1,2
+Cookie Clicker,2013,PC,1,1,2
+Flappy Bird,2013,Mobile,1,1,2
+Jetpack Joyride,2011,Mobile,1,1.5,2.5
+Spacewar!,1962, PDP-1,1.5,1,2.5
+Asteroids,1979, Arcade,1.5,1,2.5
+Dr. Mario,1990, NES,1.5,1,2.5
+Minesweeper,1990, Windows,1.5,1,2.5
+Bejeweled,2000, Web Browser,1.5,1,2.5
+Doodle Jump,2009,Mobile,1.5,1,2.5
+Missile Command,1980, Arcade,1.5,1.5,3
+Aldo's Adventure,1987, DOS,1.5,1.5,3
+Guitar Hero,2005,Console,1.5,1.5,3
+Maze War,1974, Imlac PDS-1,2,1,3
+Indy 500,1977, Atari 2600,2,1,3
+Lunar Lander,1979, Arcade,2,1,3
+Zork,1980, PDP-10,2,1,3
+Tetris,1984, Elektronika 60,2,1,3
+Space Invaders,1978, Arcade,1.5,2,3.5
+Frogger,1981, Arcade,1.5,2,3.5
+Moon Patrol,1982, Arcade,1.5,2,3.5
+Super Solvers: Midnight Rescue!,1989, DOS,1.5,2,3.5
+Super Solvers: OutNumbered!,1990, DOS,1.5,2,3.5
+Tic-Tac-Toe,1950, Custom Hardware,2,1.5,3.5
+Conway's Game of Life,1970, Mainframe,2,1.5,3.5
+Pac-Man,1980, Arcade,2,1.5,3.5
+Donkey Kong,1981, Arcade,2,1.5,3.5
+Rogue,1980, Unix,2.5,1,3.5
+River Raid,1982, Atari 2600,2,2,4
+Super Mario Bros.,1985, NES,2,2,4
+Bubble Bobble,1986, Arcade,2,2,4
+StarGoose!,1988, Amiga,2,2,4
+Kirby's Dream Land,1992, Game Boy,2,2,4
+Kirby's Pinball Land,1993, Game Boy,2,2,4
+Peggle,2007,PC,2,2,4
+Line Rider,2006,PC,3,1,4
+Super Mario Bros. 2,1988, NES,2,2.5,4.5
+DuckTales,1989, NES,2,2.5,4.5
+Chip 'n Dale: Rescue Rangers,1990, NES,2,2.5,4.5
+Super Mario Land 2: 6 Golden Coins,1992, Game Boy,2,2.5,4.5
+Dig Dug,1982, Arcade,2.5,2,4.5
+Tiny Wings,2011,Mobile,2.5,2,4.5
+The Legend of Zelda,1986, Famicom Disk System,2,3,5
+Castlevania,1986, Famicom Disk System,2.5,2.5,5
+Contra,1987, Arcade,2.5,2.5,5
+Mega Man,1987, NES,2.5,2.5,5
+The Goonies II,1987, NES,2.5,2.5,5
+Metroid II: Return of Samus,1991, Game Boy,2.5,2.5,5
+Full Tilt Pinball,1995,PC,2.5,2.5,5
+Hill Climb Racing,2012,Mobile,2.5,2.5,5
+(Super) Motherload,2013,Adobe Flash,2.5,2.5,5
+Marble Madness,1984, Arcade,3,2,5
+Pitfall!,1982, Atari 2600,2.5,3,5.5
+Mario Bros.,1983, Arcade,2.5,3,5.5
+Metroid,1986, Famicom Disk System,2.5,3,5.5
+Rampage,1986, Arcade,2.5,3,5.5
+Castlevania II: Simon's Quest,1987, Famicom Disk System,2.5,3,5.5
+Zelda II: The Adventure of Link,1987, Famicom Disk System,2.5,3,5.5
+Mega Man 2,1988, NES,2.5,3,5.5
+The Guardian Legend,1988, NES,2.5,3,5.5
+Teenage Mutant Ninja Turtles,1989, NES,2.5,3,5.5
+Mega Man 3,1990, NES,2.5,3,5.5
+StarTropics,1990, NES,2.5,3,5.5
+Sonic the Hedgehog,1991, Sega Genesis,2.5,3,5.5
+Mega Man X,1993, SNES,2.5,3,5.5
+Super Mario Bros. 3,1988, NES,2.5,3.5,6
+Super Mario World,1990, SNES,2.5,3.5,6
+Kirby's Adventure,1993, NES,2.5,3.5,6
+The Legend of Zelda: Link's Awakening,1993, Game Boy,2.5,3.5,6
+Donkey Kong Country,1994, SNES,2.5,3.5,6
+The Legend of Zelda: Oracle of Ages,2001, Game Boy Color,2.5,3.5,6
+The Legend of Zelda: Oracle of Seasons,2001, Game Boy Color,2.5,3.5,6
+Zaxxon,1981, Arcade,3,3,6
+Lemmings,1991, Amiga,3,3,6
+Worms,1995, Amiga,3,3,6
+Minecraft,2009,PC,4,2,6
+Final Fantasy,1987, NES,3,3.5,6.5
+Super Metroid,1994, SNES,3,3.5,6.5
+Harvest Moon,1996, SNES,3,3.5,6.5
+Pokémon Red and Blue,1996, Game Boy,3.5,3,6.5
+Super Smash Bros.,1999, Nintendo 64,3.5,3,6.5
+Luigi's Mansion,2001, GameCube,3.5,3,6.5
+Super Monkey Ball,2001, GameCube,3.5,3,6.5
+The Legend of Zelda: A Link to the Past,1991, SNES,3,4,7
+Breath of Fire II,1994, SNES,3,4,7
+Maniac Mansion,1987, Commodore 64,3.5,3.5,7
+Prince of Persia,1989, Apple II,3.5,3.5,7
+Super Mario Kart,1992, SNES,3.5,3.5,7
+Doom,1993, DOS,3.5,3.5,7
+Crash Bandicoot,1996, PlayStation,3.5,3.5,7
+Final Fantasy Crystal Chronicles,2003, GameCube,3.5,3.5,7
+Quake,1996, DOS,4,3,7
+Portal,2007,PC,4,3,7
+Rocket League,2015,"Console, PC",4.5,2.5,7
+EarthBound,1994, SNES,3,4.5,7.5
+Secret of Mana,1993, SNES,3.5,4,7.5
+Star Fox,1993, SNES,3.5,4,7.5
+Doom II: Hell on Earth,1994, DOS,3.5,4,7.5
+Pikmin,2001, GameCube,4,3.5,7.5
+Double Dragon,1987, Arcade,3.5,4.5,8
+Animal Crossing,2001, Nintendo 64,3.5,4.5,8
+Secret of Monkey Island,1990,Console,4,4,8
+The Secret of Monkey Island,1990, DOS,4,4,8
+Day of the Tentacle,1993, DOS,4,4,8
+Chrono Trigger,1995, SNES,3.5,5,8.5
+Diablo,1996, Windows,3.5,5,8.5
+Warcraft: Orcs & Humans,1994, DOS,4.5,4,8.5
+Super Mario 64,1996, Nintendo 64,4.5,4,8.5
+SimCity,1989, Amiga,5,3.5,8.5
+Final Fantasy VIII,1999, PlayStation,4,5,9
+The Legend of Zelda: Ocarina of Time,1998, Nintendo 64,4.5,4.5,9
+Metroid Prime,2002, GameCube,4.5,4.5,9
+The Legend of Zelda: The Wind Waker,2002, GameCube,4.5,4.5,9
+SimCity 2000,1993, Macintosh,5,4,9
+Gran Turismo,1997,Console,5,4,9
+FTL: Faster Than Light,2012,PC,4.5,5,9.5
+SimCity 3000,1999, Windows,5,4.5,9.5
+Dune II: The Building of a Dynasty,1992, DOS,5,5,10
+Command & Conquer,1995, DOS,5,5,10
+Warcraft II: Tides of Darkness,1995, DOS,5,5,10
+StarCraft,1998, Windows,5,5,10
+Age of Empires II: The Age of Kings,1999, Windows,5,5,10
+EverQuest,1999, Windows,5,5,10
+Roller Coaster Tycoon,1999,PC,5,5,10
+The Sims,2000, Windows,5,5,10
