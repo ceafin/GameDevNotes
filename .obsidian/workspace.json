@@ -11,10 +11,14 @@
             "id": "a90e2bb457ae6000",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Godot Dev Reference Notes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Godot Dev Reference Notes"
             }
           }
         ]
@@ -166,8 +170,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a90e2bb457ae6000",
+  "active": "60791a288452a754",
   "lastOpenFiles": [
+    "fromBurritoMan/ROADMAP.md",
+    "fromBurritoMan/MANUAL.md",
+    "fromBurritoMan/GODOT_REFERENCE.md",
+    "fromBurritoMan",
+    "untitled folder",
+    "3D Pixel Art Prototype.md",
     "Edutainment Notes/Outnumbered Roadmap.md",
     "Edutainment Notes/Outnumbered Architecture.md",
     "Edutainment Notes/Unconfirmed 770704.crdownload",
@@ -188,10 +198,7 @@
     "Game Development Skill Trees.md",
     "lu162924e61k.tmp",
     "Game Mechanics Matrix.csv",
-    "generate_mechanics_matrix.py",
     "20 Games Challenge Games by Complexity.md",
-    "3D Pixel Art Prototype.md",
-    "lu9917ry1s.tmp",
     "Games and Years.md",
     "Games for 20 Games Challenge.md",
     "Game Complexities.md",
@@ -202,9 +209,6 @@
     "thumbnail.jpg",
     "Celtic ARPG/Beastiary/Base Beast Raw List.md",
     "Celtic ARPG/Beastiary/Gaelic Analogs for Classic Zelda Enemy Types.md",
-    "qwen3.md",
-    "Celtic ARPG/Beastiary/Base Beast List Classed-Tagged.md",
-    "Celtic ARPG/Mechanics/Base Collection in Theme.md",
-    "Celtic ARPG/Mechanics/Base Collection Matrix.md"
+    "qwen3.md"
   ]
 }
