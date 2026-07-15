@@ -1,4 +1,4 @@
-# 'Mór-Ríoghain' _(Working Title)_: Game Design Document & Player Manual
+# 'Gaiscígh Na Mórrígne' _(Working Title)_: Game Design Document & Player Manual
 
 >  **Mór-Ríoghain** *(often anglicized as The Morrígan)* is a powerful and enigmatic goddess from Irish mythology. Her name translates from modern Irish as "Great Queen" or "Phantom Queen". She is primarily revered as a deity of war, destiny, prophecy, and sovereignty.
 

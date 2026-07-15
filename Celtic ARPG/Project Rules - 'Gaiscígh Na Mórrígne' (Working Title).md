@@ -1,7 +1,8 @@
-# Project Rules for a Celtic ARPG/JRPG 'Mór-Ríoghain' _(Working Title)_
+# Project Rules for a Celtic ARPG/JRPG 'Gaiscígh Na Mórrígne' _(Working Title)_
 
 Durable, project-specific invariants for this game. Global Godot/GDScript rules and my working style live in `CLAUDE.md`; running state lives in `MEMORY.md`.
 
+>  **Mór-Ríoghain** *(often anglicized as The Morrígan)* is a powerful and enigmatic goddess from Irish mythology. Her name translates from modern Irish as "Great Queen" or "Phantom Queen". She is primarily revered as a deity of war, destiny, prophecy, and sovereignty.
 ## What this is
 Explore mode is 2D top-down in the mold of Zelda: Link's Awakening and Oracle of Seasons/Ages — faithful *feel*, modern *implementation*. Battle is a separate, dedicated screen: VP/Indivisible-style party combat. See `Game Design Document and Player Manual.md` for the full pillars; this file is just the technical invariants for Explore mode.
 
