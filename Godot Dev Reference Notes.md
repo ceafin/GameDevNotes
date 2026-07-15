@@ -1,6 +1,6 @@
 # Godot Dev Reference Card
 
-A tight reference for breaking down games, structuring code, and staying out of your own head. Built from one principle repeated: **local things stay local; only the genuinely global gets lifted out — minimally, when the pain is real.**
+A tight reference for breaking down games, structuring code, and staying out of your own head. Target: **Godot 4.6.x, GDScript, static typing on.** Built from one principle repeated: **local things stay local; only the genuinely global gets lifted out — minimally, when the pain is real.**
 
 ---
 
@@ -39,27 +39,32 @@ Before coding any mechanic, search the docs for the **noun** of what you want:
 
 | Want | Use |
 |---|---|
-| Move with collision | `CharacterBody2D` + `move_and_slide()` |
+| Move with collision | `CharacterBody2D` + `move_and_slide()` (no args in 4.x — set the `velocity` property first) |
 | On ground? | `is_on_floor()` |
 | Overlap / hit detection | `Area2D` |
-| Smooth move / ease / follow | `Tween` (never lerp by hand) |
-| Timing / delays | `Timer` |
+| One-shot move or ease (A → B, fixed duration) | `Tween` via `create_tween()` |
+| Follow a MOVING target (camera, homing) | `Camera2D.position_smoothing_enabled`, or delta-based `lerp` / `move_toward` in `_process`. NOT a Tween. |
+| Timing / delays | `Timer` (or `await get_tree().create_timer(t).timeout`) |
 | Frame animation | `AnimatedSprite2D` / `AnimationPlayer` |
 | State-driven animation | `AnimationTree` |
-| Pathfinding | `NavigationAgent` |
+| Pathfinding | `NavigationAgent2D` / `NavigationAgent3D` |
 
-**Heuristic:** about to write math to move, ease, follow, overlap, or tick? → stop, there's a node for it.
+**Tween vs lerp, the distinction that trips people up:**
+- `Tween` = "go from where I am to X over N seconds," a *closed* animation. Restarting it every frame to chase a moving target is the wrong tool.
+- Following something that keeps moving = per-frame smoothing. Use `Camera2D`'s built-in smoothing for cameras, or `pos = pos.lerp(target, weight)` / `move_toward` in `_process` for everything else. Hand-lerping here is correct, not a sin.
+
+**Heuristic:** about to write math for a fixed A → B ease? Tween. Chasing a live target every frame? Smoothing, not Tween.
 
 ---
 
 ## Data Persistence
 
-- **`change_scene_to_file()` destroys the entire scene tree.** Anything stored "in the level" or "on the player" dies instantly.
-- **The bucket line — ask per variable:** *Would this need to be true AFTER a scene change destroys everything?*
+- **`change_scene_to_file()` frees only the current scene branch** (the old scene and all its children). The **root and autoloads survive.** Anything stored "in the level" or "on the player" node dies; autoload data does not.
+- **The bucket line — ask per variable:** *Would this need to be true AFTER a scene change frees the current scene?*
   - **No → scene-local.** Enemy positions, projectiles, current HP (if refilled each stage), this level's pickups. Most variables. Leave them local.
   - **Yes → session-global.** Lives, score, unlocked weapons, equipped weapon, levels beaten.
 - **Subtlety = the actual skill:** Mega Man *health* is scene-local, *lives* are session-global. Same kind of number, opposite bucket. Draw the line per-variable.
-- **Session-global lives in an Autoload singleton** (Project Settings → Globals → Autoload). It sits above the tree, never freed, reachable by name. This is your persistent char struct.
+- **Session-global lives in an Autoload singleton** (Project Settings → Globals → Autoload). It sits under `/root`, above the current scene, never freed, reachable by its registered name. This is your persistent character struct.
 - **"Persists" ≠ "persists across scenes."** A bullet persists for 2 seconds and is NOT global. Only scene-boundary-crossing data earns an autoload.
 
 ---
@@ -71,21 +76,24 @@ Don't file these in the same drawer — that's what made it feel like "autoloade
 - **Autoloads = DATA / services.** Global variables, audio. ~2–5 total (`GameState`, `AudioManager`, optional `SceneManager`, `Settings`). More than ~5 = smell.
 - **Persistent root scene = STRUCTURE.** A permanent `Main` node with a swappable child slot:
   ```
-  Main (Node)              ← never freed
-  ├── CurrentLevel (Node)  ← free children + instantiate new level here
-  ├── HUD (CanvasLayer)    ← persists across level swaps
+  Main (Node)              # never freed
+  ├── CurrentLevel (Node)  # free children + instantiate new level here
+  ├── HUD (CanvasLayer)    # persists across level swaps
   └── PauseMenu (CanvasLayer)
   ```
-  Swap `CurrentLevel`'s children instead of `change_scene_to_file()`. HUD/menu stop flickering and rebuilding.
+  Swap `CurrentLevel`'s children instead of calling `change_scene_to_file()`. HUD and menus stop flickering and rebuilding.
 - **They collaborate:** `Main.load_level()` does the structural swap; it reads `GameState` to know *which* level.
-- **Don't adopt the persistent root until it hurts** (HUD rebuilds, music restarts). Tiny prototype = plain `change_scene_to_file()` + one `GameState` is fine.
+- **Don't adopt the persistent root until it hurts** (HUD rebuilds, music restarts on every transition). A tiny prototype is fine with plain `change_scene_to_file()` + one `GameState`.
 
 ---
 
 ## Pause / Menus
 
 - `get_tree().paused = true` freezes the whole tree.
-- Set the menu node's **`process_mode = "When Paused"`** so it stays alive while everything else freezes. That's the built-in "everything stops except this UI."
+- Set the menu node's process mode so it stays alive while everything else freezes:
+  - Inspector: **Process > Mode = When Paused**.
+  - Code: `process_mode = Node.PROCESS_MODE_WHEN_PAUSED`.
+- That is the built-in "everything stops except this UI."
 
 ---
 
@@ -95,19 +103,23 @@ Based on one fact: **a parent knows its children; a child does not know its pare
 
 - **Call down** = parent calls methods on children it holds references to. `enemy.take_damage(10)`, `hud.set_health(80)`. Not a compromise — correct. Stop feeling guilty.
 - **Signal up** = child emits an event without knowing who listens. `died.emit()`. Keeps the child reusable in any scene.
-- **Children never call up** (welds them to a parent → not reusable).
-- **Siblings never reference each other.** HUD and player are siblings → they must not touch. They communicate via shared global state instead.
+- **Children never call up.** Welds them to a parent, kills reuse.
+- **Siblings do not reference each other directly. The parent mediates.** Child A signals up, the parent hears it and calls down into child B. Only reach for shared global state when the thing really is shared *data* (see Tier 2), not just to avoid wiring the parent.
 - Result: flow goes **up via signals → parent decides → down via calls.** A tree, not a web.
 
 ### Where to connect
 
-- **Inspector** — both nodes live in the *same saved scene* and exist from the start (a menu's own button, a level's pre-placed door).
-- **Code** — one side is spawned at runtime. Connect at the spawn site, same line as `add_child`:
-  ```gdscript
-  enemy.died.connect(_on_enemy_died)
-  ```
-  On `queue_free()`, Godot **auto-disconnects**. You don't manage connection lifetimes — they're born and die with the node.
-- **Connect to the permanent thing, not the transient ones.** HUD connects to `GameState` once in `_ready()` and ignores the churn of spawning/dying objects entirely.
+| Situation | Connect via |
+|---|---|
+| Both nodes live in the *same saved scene* and exist from the start (a menu's own button, a level's pre-placed door) | **Inspector** |
+| One side is spawned at runtime | **Code**, at the spawn site, same line as `add_child` |
+
+```gdscript
+enemy.died.connect(_on_enemy_died)
+```
+On `queue_free()`, Godot **auto-disconnects** when the node is actually freed. You do not manage connection lifetimes; they are born and die with the node.
+
+**Connect to the permanent thing, not the transient ones.** The HUD connects to `GameState` once in `_ready()` and ignores the churn of spawning and dying objects entirely.
 
 ---
 
@@ -127,26 +139,37 @@ For any two things that need to talk, ask in order:
 ```gdscript
 # GameState.gd (autoload)
 extends Node
+
 signal score_changed(new_score: int)
 
 var score: int = 0:
 	set(value):
+		if value == score:   # skip redundant emits
+			return
 		score = value
 		score_changed.emit(value)
 ```
 
 HUD subscribes to `score_changed` once. Enemy and HUD never reference each other.
 
+> Setter caveat: setters also run during scene load / init, before other nodes connect. If a listener must not miss the first value, have it read `GameState.score` in its own `_ready()` and *then* connect, rather than relying on the emit.
+
 ---
 
 ## Config / Typing (already in your project)
 
-- **Static typing enforced:** `untyped_declaration = 2` (Error) — the keystone. Makes GDScript behave like C, not Python. Supercharges autocomplete.
-- **`unsafe_*` = `1` (Warn), not Error** — some unsafe ops (Dictionary access, `get_node`) are unavoidable. See them, don't let them block the build.
-- **`:=` is fine** (it's typed inference = C++ `auto`). Don't ban it.
-- Annotate everything: `func move(delta: float) -> void:`. Typed `Array[int]` = `std::vector<int>`: errors caught at parse time.
-- **Use the in-editor debugger + remote scene tree** (live runtime values). Stop debugging with `print()` like it's 1999.
-- After editing warning settings: **restart editor or re-save a script** or they won't apply.
+| Setting | Value | Why |
+|---|---|---|
+| `untyped_declaration` | `2` (Error) | The keystone. Makes GDScript behave like C, not Python. Supercharges autocomplete. |
+| `unsafe_*` (e.g. `unsafe_method_access`, `unsafe_property_access`, `unsafe_cast`) | `1` (Warn), not Error | Some unsafe ops (Dictionary access, `get_node`) are unavoidable. See them, don't let them block the build. |
+
+Warning levels: `0 = Ignore`, `1 = Warn`, `2 = Error`.
+
+- **`:=` is fine.** It is typed inference, the equivalent of C++ `auto`. Don't ban it.
+- **Annotate everything:** `func move(delta: float) -> void:`. A typed `Array[int]` behaves like `std::vector<int>`: type mismatches are caught at parse time where the compiler can see them.
+- **Use `@export` and `@onready`** for inspector-editable fields and deferred node references. `@onready var sprite: Sprite2D = $Sprite2D`.
+- **Use the in-editor debugger + remote scene tree** for live runtime values. Stop debugging with `print()` like it's 1999.
+- After editing warning settings: **restart the editor or re-save a script**, or they won't apply.
 
 ---
 

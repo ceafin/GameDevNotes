@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9c7ad07fd8a3f4ce",
+        "id": "a7933d72ab5f0a80",
         "type": "tabs",
         "children": [
           {
-            "id": "a90e2bb457ae6000",
+            "id": "ef78fd01b8ad9e0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Godot Dev Reference Notes.md",
+                "file": "Celtic ARPG/Project Rules - 'Mór-Ríoghain' (Working Title).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Godot Dev Reference Notes"
+              "title": "Project Rules - 'Mór-Ríoghain' (Working Title)"
             }
           }
         ]
@@ -170,10 +170,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "60791a288452a754",
+  "active": "ef78fd01b8ad9e0e",
   "lastOpenFiles": [
+    "Celtic ARPG/Game Design Document and Player Manual.md",
+    "Celtic ARPG/Project Rules - 'Mór-Ríoghain' (Working Title).md",
+    "CLAUDE.md",
+    "Claude Code Godot and GDscript Working Contract.md",
+    "Godot Dev Reference Notes.md",
+    "Game Development Skill Trees.md",
     "fromBurritoMan/ROADMAP.md",
     "fromBurritoMan/MANUAL.md",
+    "Celtic ARPG/Mechanics/Mechanics Summary.md",
+    "Celtic ARPG/Beastiary/Bestiary Summary.md",
+    "Celtic ARPG/Mechanics/Base Collection.md",
+    "Celtic ARPG/Mechanics/Base Collection Matrix.md",
+    "Celtic ARPG/Mechanics/Base Collection in Theme.md",
+    "Celtic ARPG/Beastiary/Gaelic Analogs for Classic Zelda Enemy Types.md",
+    "Celtic ARPG/Beastiary/Base Beast Raw List.md",
+    "Celtic ARPG/Beastiary/Base Beast List Classed-Tagged.md",
+    "Home Network ReArchitecting Plan.md",
+    "The 20 Games Challenge/Spring Jam 2026/Outline.md",
+    "Terrain Chunk Hits.md",
+    "thumbnail.jpg",
+    "thumbnail.png",
+    "Untitled.md",
     "fromBurritoMan/GODOT_REFERENCE.md",
     "fromBurritoMan",
     "untitled folder",
@@ -183,32 +203,12 @@
     "Edutainment Notes/Unconfirmed 770704.crdownload",
     "Edutainment Notes/Unconfirmed 95668.crdownload",
     "Nasc vs Bhride Dev Report.md",
-    "Terrain Chunk Hits.md",
-    "Godot Dev Reference Notes.md",
     "Edutainment Notes/Super Solvers Godot Architecture Combined Notes.md",
-    "Edutainment Notes/super-solvers-godot-chat-log.md",
-    "Edutainment Notes/super-solvers-godot-architecture-chat.md",
-    "The 20 Games Challenge/Spring Jam 2026/Outline.md",
     "Edutainment Notes/Unconfirmed 692339.crdownload",
-    "Tips/Incremental Tips.md",
-    "Edutainment Notes/Edutainment GameDev Notes.md",
     "Edutainment Notes/Unconfirmed 791314.crdownload",
     "Edutainment Notes/Unconfirmed 661510.crdownload",
     "Edutainment Notes",
-    "Game Development Skill Trees.md",
     "lu162924e61k.tmp",
-    "Game Mechanics Matrix.csv",
-    "20 Games Challenge Games by Complexity.md",
-    "Games and Years.md",
-    "Games for 20 Games Challenge.md",
-    "Game Complexities.md",
-    "Home Network ReArchitecting Plan.md",
-    "Untitled.md",
-    "thumbnail.png",
-    "Item Index with Mythic Parallels and Abilities.md",
-    "thumbnail.jpg",
-    "Celtic ARPG/Beastiary/Base Beast Raw List.md",
-    "Celtic ARPG/Beastiary/Gaelic Analogs for Classic Zelda Enemy Types.md",
-    "qwen3.md"
+    "Game Mechanics Matrix.csv"
   ]
 }
